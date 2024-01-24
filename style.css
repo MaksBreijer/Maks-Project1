@@ -1,0 +1,371 @@
+
+
+body {
+    align-items: center;
+    justify-content: center;
+    background-color: #347355;
+    margin: 0;
+    padding: 0;
+    width: 375px;
+    height: 667px;
+    overflow-x: hidden; 
+}
+
+.container {
+    max-width: 375px; 
+    max-height: 667px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: auto;
+    position: relative;
+}
+
+
+header {
+    background-image: url('images/header.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px; 
+    text-align: center;
+    font-size: 2em;
+    top: 0;
+    z-index: 100;
+    transition: padding 0.3s;
+}
+
+header img {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 30%; 
+    max-height: 30%;
+}
+
+h1 {
+    visibility: hidden;
+}
+
+
+h4 {
+    color: #93D94E;
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 5%;
+}
+
+
+main {
+    padding-bottom: 100px;
+}
+
+article p, main p {
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #223240;
+    background-color: white;
+    border: 7px solid #93D94E; 
+    padding: 6px; 
+    display: inline-block;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+background-container {
+    background-image: url('images/achtergrondhuisjes.jpg');
+    background-size: cover;
+    background-position: center bottom 50px;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-top: 10%;
+}
+
+main h2 {
+    margin-bottom: 10%;
+}
+
+#tekst1 {
+    display: flex;
+    justify-content: left;
+    padding-bottom: 30%;
+    color: #223240;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+#image-container img {
+    width: 150px;
+    margin: 13px;
+}
+
+#content-container {
+    margin-top: 30px;
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.button {
+    margin: 0 10px;
+    padding: 10px 40px;
+    font-size: 16px;
+    background-color: #223240;
+    color: #93D94E;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.button:hover {
+    background-color: #93D94E;
+    color: #223240;
+}
+
+.quiz-container {
+    background-color: #347355;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.question p {
+    color: #93D94E;
+    background-color: #223240;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #223240;
+    background-color: white;
+    border: 7px solid #93D94E;
+}
+
+input[type="submit"] {
+    background-color: #93D94E;
+    color: #93D94E;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #93D94E;
+    color: #223240;
+}
+
+button {
+    align-items: center;
+    margin-left: 13%;
+    padding: 10px 40px;
+    font-size: 16px;
+    background-color: #223240;
+    color: #93D94E;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button:hover {
+    color: #45a049;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+
+.house-title {
+    font-size: 18px;
+    margin-top: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #93D94E;
+    margin-left: 5%;
+    font-size: 1.3em;
+}
+
+.house-image {
+    width: 345px;
+    height: 200px;
+    object-fit: cover;
+    border: 4px solid #ffffff;
+    border-radius: 10%;
+    margin-left: 3%;
+}
+
+.small-text {
+    margin-top: 50px;
+    color: #223240;
+}
+
+.small-text1 {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    color: #223240;
+}
+
+.footer2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #223240;
+    color: white;
+    width: 365px;
+    height: 10%;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer2 a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer2 img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+    transition: transform 0.3s;
+}
+
+.footer2 a:hover img {
+    transform: scale(1.2);
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #223240;
+    color: white;
+    width: 375px;
+    height: 10%;
+    position: fixed;
+    bottom: 0;
+}
+
+footer a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+    transition: transform 0.3s;
+}
+
+footer a:hover img {
+    transform: scale(1.2);
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20%;
+}
+
+#content-container {
+    margin-top: 30px;
+}
+
+#image-container img {
+    width: 100%;
+    max-width: 400px;
+    margin: 13px;
+}
+
+.tooltips {
+    display: none;
+    position: absolute;
+    text-align: center;
+}
+
+.image-container:hover .tooltips {
+    display: flex;
+}
+
+.tooltip {
+    background-color: #ffffff;
+    color: #223240;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 8px;
+    padding: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.tooltip1 {
+    background-color: #ffffff;
+    color: #223240;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 8px;
+    padding: 4px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.tooltip-top-left {
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%, 0);
+}
+
+.tooltip-bottom-right {
+    bottom: 0;
+    right: 40%;
+    transform: translate(80%, 0);
+}
