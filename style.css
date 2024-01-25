@@ -35,7 +35,7 @@ header {
 }
 
 header img {
-    position: center;
+
     top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -92,8 +92,12 @@ h2 {
     margin-top: 10%;
 }
 
-main h2 {
-    margin-bottom: 10%;
+
+.adres{
+    border: none;
+    background: none;
+    color: #93D94E;
+    margin-right: 45%;
 }
 
 #tekst1 {
@@ -104,31 +108,44 @@ main h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
+
+
+form {
+
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 290px;
 }
 
-#image-container img {
-    width: 150px;
-    margin: 13px;
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
 }
 
-#content-container {
-    margin-top: 30px;
+input, textarea {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
-#button-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
+.tekst2 {
+    width: 100%;
 }
+
+section, textarea {
+    width: 100%;
+}
+ 
+
 
 .button {
-    margin: 0 10px;
-    padding: 10px 40px;
+    padding: 10px 24px;
+    margin-left: 11%;
     font-size: 16px;
     background-color: #223240;
     color: #93D94E;
@@ -154,6 +171,7 @@ main h2 {
     background-color: #223240;
 }
 
+
 form {
     max-width: 500px;
     margin: 0 auto;
@@ -178,7 +196,6 @@ input[type="submit"] {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
     font-size: 16px;
 }
 
@@ -189,7 +206,7 @@ input[type="submit"]:hover {
 
 button {
     align-items: center;
-    margin-left: 13%;
+    margin-left: 9%;
     padding: 10px 40px;
     font-size: 16px;
     background-color: #223240;
@@ -246,6 +263,15 @@ nav ul {
     margin-bottom: 60px;
     color: #223240;
 }
+
+iframe {
+    width: auto;
+    height: 200px;
+margin-left: 10%;
+
+}
+
+
 
 .footer2 {
     display: flex;
@@ -323,7 +349,7 @@ footer a:hover img {
 
 #image-container img {
     width: 100%;
-    max-width: 400px;
+    max-width: 118px;
     margin: 13px;
 }
 
@@ -360,7 +386,7 @@ footer a:hover img {
 }
 
 .tooltip-top-left {
-    top: 10%;
+    top: 35%;
     left: 10%;
     transform: translate(-50%, 0);
 }
