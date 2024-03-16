@@ -1,0 +1,66 @@
+body {
+    background-image: url(images/background-website.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+}
+
+.buttons { 
+    margin-left: 3%;
+}
+
+.details {
+    margin-left: 7%;
+    margin-top: 20px; 
+}
+
+.ski {
+    position: absolute;
+    margin-top: 20%; 
+    left: 52%;
+    transform: translate(-50%, -70%) scale(1.7);
+}
+
+.kieseenkleur {
+    margin-top: 10%; 
+    margin-left: 20%;
+}
+
+.kieseendetail {
+    margin-left: 55%;
+    margin-top: -7.9%; 
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(75, 34, 198);
+}
+
+.verborgen {
+    display: none;
+    margin-left: -300px;
+}
+
+.resetKnop {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 33%;
+    margin-left: 6%;
+}
+
+.playButton {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 33%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
