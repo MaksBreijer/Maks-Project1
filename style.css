@@ -43,7 +43,7 @@ h2 {
     margin-left: -300px;
 }
 
-.resetKnop {
+.resetKnop{
     background-color: blue;
     color: white;
     padding: 10px 20px;
@@ -53,14 +53,17 @@ h2 {
     margin-top: 33%;
     margin-left: 6%;
 }
-
-.playButton {
-    background-color: blue;
+.playButton{
+ background-color: blue;
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-left: 33%;
+ margin-left: 33%;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.resetKnop{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
