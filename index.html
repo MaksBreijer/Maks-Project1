@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Customize ski</title>
+</head>
+<body>
+
+    <div class="kieseenkleur">
+        <h2>Kies een kleur.</h2>
+        <div class="buttons">
+            <img src="images/button-groend.png" alt="Afbeelding 1" id="buttonGroen">
+            <img src="images/button-rood.png" alt="Afbeelding 2" id="buttonRood">
+        </div>
+    </div>
+
+    <div class="kieseendetail">
+        <h2>Kies een detail.</h2>
+        <div class="details">
+            <img src="images/detail-geel.png" alt="Afbeelding 3" id="detailGeel"> <!-- Juiste id toegevoegd -->
+            <img src="images/detail-blauw.png" alt="Afbeelding 4" id="detailBlauw"> <!-- Juiste id toegevoegd -->
+        </div>
+    </div>
+
+    <div class="ski">
+        <img src="images/ski.png" alt="start" id="skiAfbeelding">
+    </div>
+
+ <!-- Audio-element -->
+<audio class="myAudio">
+    <source src="audio/jagermeister.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+<!-- Knop om het audiobestand te bedienen -->
+<button class="playButton">Afspelen/Pauzeren</button>
+
+<!-- Resetknop -->
+<button class="resetKnop">Reset</button>
+
+<script src="script.js"></script> <!-- Plaats hier de koppeling naar je JavaScript-bestand -->
+</body>
+</html>
