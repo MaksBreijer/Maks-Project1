@@ -1,66 +1,46 @@
 <!DOCTYPE html>
-<html lang="nl">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>H₂Omes</title>
     <link rel="stylesheet" href="style.css">
+    <title>Customize ski</title>
 </head>
-
 <body>
 
-    <header>
-        <h1>H2Omes</h1>
-        <img src="images/h2omes-png.png" alt="logo">
-    </header>
+    <div class="kieseenkleur">
+        <h2>Kies een kleur.</h2>
+        <div class="buttons">
+            <img src="images/button-groend.png" alt="Afbeelding 1" id="buttonGroen">
+            <img src="images/button-rood.png" alt="Afbeelding 2" id="buttonRood">
+        </div>
+    </div>
 
-    <main>
-        <article>
-            <h2>WAT IS H2OMES?</h2>
-            <p>
-                Een drijvende woonwijk in het Johan van Hasseltkanaal, in noord. Wat is dit nou eigenlijk? 
-                Wij van H2Omes hebben de duurzaamste woonwijk van europa gemaakt op het water. 
-                Op deze website zullen alles te weten komen over deze huisjes, kun je zelfs een Quiz afleggen
-                om te testen hoe duurzaam jij eigenlijk bent. 
-            </p>
-        </article>
+    <div class="kieseendetail">
+        <h2>Kies een detail.</h2>
+        <div class="details">
+            <img src="images/detail-geel.png" alt="Afbeelding 3" id="detailGeel"> <!-- Juiste id toegevoegd -->
+            <img src="images/detail-blauw.png" alt="Afbeelding 4" id="detailBlauw"> <!-- Juiste id toegevoegd -->
+        </div>
+    </div>
 
-        <section id="content-container">
-            <figure id="image-container">
-                <img src="images/afbeelding-duurzaamheud.png" alt="Eerste Afbeelding">
-                <img src="images/huisjes.png" alt="Tweede Afbeelding">
-            </figure>
-        </section>
+    <div class="ski">
+        <img src="images/ski.png" alt="start" id="skiAfbeelding">
+    </div>
 
-        <section id="button-container">
-            <button class="button" onclick="window.location.href='duurzaam.html'">DUURZAAM</button>
-            <button class="button" onclick="window.location.href='huisjes.html'">H2Omes</button>
-        </section>
+ <!-- Audio-element -->
+<audio class="myAudio">
+    <source src="../audio/jagermeister.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
 
-        <article>
-            <h2>HOE IS HET ONTSTAAN?</h2>
-            <p>H2Omes is tien jaar geleden in Amsterdam ontstaan, toen een groep stadsbewoners besloot hun krachten te bundelen voor een duurzamere levensstijl. Met slimme bouwmethoden en milieuvriendelijke oplossingen creëerden ze een drijvende buurt die uitgroeide tot H2OMES. 
-                   Dit unieke project begon als een idee en groeide uit tot een bloeiende gemeenschap, symbool van duurzaam wonen in het hart van de stad.</p>
-        </article>
-    </main>
+<!-- Knoppen om het audiobestand te bedienen -->
+<button class="playButton">Afspelen/Pauzeren</button>
 
-    <footer>
-        <nav>
-            <a href="duurzaam.html">
-                <img src="images/reyclebin.png" alt="Afbeelding 1">
-            </a>
-            <a href="index.html">
-                <img src="images/huisje-png.png" alt="Afbeelding 2">
-            </a>
-            <a href="huisjes.html">
-                <img src="images/h2omes-icon.png" alt="Afbeelding 3">
-            </a>
-            <a href="gegevens.html">
-                <img src="images/pointer.png" alt="Afbeelding 3">
-            </a>
-        </nav>
-    </footer>
+
+
+    <button class="resetKnop">Reset</button>
+
+    <script src="script.js"></script> <!-- Plaats hier de koppeling naar je JavaScript-bestand -->
 </body>
-
 </html>
